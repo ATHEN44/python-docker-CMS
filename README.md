@@ -1,4 +1,11 @@
-this program starts and stops docker containers with the following 5 Content Management systems (all using MySQL). 
+this program starts and stops docker containers with the following 5 Content Management systems (all using MySQL):
+
+-drupal
+-wordpress
+-grav
+-ghost
+-joomla
+
 prerequisites include:
 
 docker, docker-compose, and all of their necessary requirements
