@@ -1,10 +1,10 @@
 # this program starts and stops docker containers with the following 5 Content Management systems (all using MySQL):
 
-drupal
-wordpress
-grav
-ghost
-joomla
+drupal<br>
+wordpress<br>
+grav<br>
+ghost<br>
+joomla<br>
 
 # prerequisites include:
 
@@ -18,17 +18,16 @@ usage: main.py [-h] [--start {Drupal,Ghost,Grav,Joomla,Wordpress}] [--port PORT]
 
 start and stop a number of CMS systems (as docker containers)
 
-options:
-  -h, --help            show this help message and exit
-  --start {Drupal,Ghost,Grav,Joomla,Wordpress}
-                        the name of the cms
-  --port PORT           the port to run the docker container on
-  --stop {Drupal,Ghost,Grav,Joomla,Wordpress}
-                        the name of the cms
-  --list                list all CMSs
-  --defaults            list default credentials
-  --dbname DBNAME       mysql database name
-  --dbuser DBUSER       mysql database user
-  --dbpass DBPASS       mysql database password
-  --dbroot DBROOT       mysql database root password
-  --cleanup             cleanup files all docker related files and runs docker valume --prune
+options:<br>
+  -h, --help            show this help message and exit<br>
+  --start {Drupal,Ghost,Grav,Joomla,Wordpress}<br>
+                        the name of the cms<br>
+  --port PORT           the port to run the docker container on<br>
+  --stop {Drupal,Ghost,Grav,Joomla,Wordpress}<br>
+                        the name of the cms<br>
+  --list                list all CMSs<br>
+  --defaults            list default credentials<br>
+  --dbname DBNAME       mysql database name<br>
+  --dbuser DBUSER       mysql database user<br>
+  --dbpass DBPASS       mysql database password<br>
+  --dbroot DBROOT       mysql database root password<br>
