@@ -1,18 +1,18 @@
-this program starts and stops docker containers with the following 5 Content Management systems (all using MySQL):
+# this program starts and stops docker containers with the following 5 Content Management systems (all using MySQL):
 
--drupal
--wordpress
--grav
--ghost
--joomla
+drupal
+wordpress
+grav
+ghost
+joomla
 
-prerequisites include:
+# prerequisites include:
 
 docker, docker-compose, and all of their necessary requirements
 
 an install script for docker is provided in the docker_install directory when you clone this repository.
 
-overview:
+# overview:
 
 usage: main.py [-h] [--start {Drupal,Ghost,Grav,Joomla,Wordpress}] [--port PORT] [--stop {Drupal,Ghost,Grav,Joomla,Wordpress}] [--list] [--defaults] [--dbname DBNAME] [--dbuser DBUSER] [--dbpass DBPASS] [--dbroot DBROOT] [--cleanup]
 
