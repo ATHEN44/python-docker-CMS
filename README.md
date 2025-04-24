@@ -10,7 +10,7 @@ joomla<br>
 
 docker, docker-compose, and all of their necessary requirements
 
-an install script for docker is provided in the docker_install directory when you clone this repository.
+an install script for docker is provided in the docker_install directory when you clone this repository -- because i always get confused doing trying to do it.
 
 # overview:
 
